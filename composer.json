@@ -1,0 +1,16 @@
+{
+    "name": "hounddog/phpunit",
+    "description": "phpunit fork with composer",
+    "version": "3.4",
+    "authors": [
+        {
+            "name": "Martin Shwalbe",
+            "email": "mshwalbe@doyousoft.com"
+        }
+    ],
+    "require": {
+        "php":">=5.2.7"
+    },
+    "bin":["phpunit.php"]
+}
+
