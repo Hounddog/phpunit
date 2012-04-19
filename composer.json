@@ -1,7 +1,7 @@
 {
     "name": "hounddog/phpunit",
-    "description": "phpunit fork with composer",
-    "version": "3.4",
+    "description": "Unofficial Version of PHPunit with Composer",
+    "version": "3.6",
     "authors": [
         {
             "name": "Martin Shwalbe",
@@ -19,6 +19,7 @@
 	"sebastianbergmann/phpunit-mock-objects": "dev-master",
 	"sebastianbergmann/dbunit": "dev-master"
     },
+    "bin":["phpunit"],
     "repositories":[
 	{
 	    "type": "package",
