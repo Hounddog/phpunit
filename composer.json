@@ -8,9 +8,109 @@
             "email": "mshwalbe@doyousoft.com"
         }
     ],
+    "include-path":["./"],
     "require": {
-        "php":">=5.2.7"
+        "php":">=5.2.7",
+	"sebastianbergmann/php-file-iterator": "3.6",
+	"sebastianbergmann/php-code-coverage": "1.1",
+	"sebastianbergmann/php-token-stream": "dev-master",
+	"sebastianbergmann/php-text-template": "dev-master",
+	"sebastianbergmann/php-timer": "dev-master",
+	"sebastianbergmann/phpunit-mock-objects": "dev-master",
+	"sebastianbergmann/dbunit": "dev-master"
     },
-    "bin":["phpunit.php"]
+    "repositories":[
+	{
+	    "type": "package",
+	    "package": {
+		"name": "sebastianbergmann/php-file-iterator",
+		"version": "3.6",
+		"source": {
+		    "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+		    "type": "git",
+		    "reference": "master"
+		},
+		"include-path":["./"]
+	    }
+	},
+	{
+	    "type": "package",
+	    "package": {
+		"name": "sebastianbergmann/php-code-coverage",
+		"version": "1.1",
+		"source": {
+		    "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+		    "type": "git",
+		    "reference": "1.1"
+		},
+		"include-path":["./"]
+	    }
+	},
+	{
+	    "type": "package",
+	    "package": {
+		"name": "sebastianbergmann/php-token-stream",
+		"version": "dev-master",
+		"source": {
+		    "url": "https://github.com/sebastianbergmann/php-token-stream.git",
+		    "type": "git",
+		    "reference": "master"
+		},
+		"include-path":["./"]
+	    }
+	},
+	{
+	    "type": "package",
+	    "package": {
+		"name": "sebastianbergmann/php-text-template",
+		"version": "dev-master",
+		"source": {
+		    "url": "https://github.com/sebastianbergmann/php-text-template.git",
+		    "type": "git",
+		    "reference": "master"
+		},
+		"include-path":["./"]
+	    }
+	},
+	{
+	    "type": "package",
+	    "package": {
+		"name": "sebastianbergmann/php-timer",
+		"version": "dev-master",
+		"source": {
+		    "url": "https://github.com/sebastianbergmann/php-timer.git",
+		    "type": "git",
+		    "reference": "master"
+		},
+		"include-path":["./"]
+	    }
+	},
+	{
+	    "type": "package",
+	    "package": {
+		"name": "sebastianbergmann/phpunit-mock-objects",
+		"version": "dev-master",
+		"source": {
+		    "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
+		    "type": "git",
+		    "reference": "master"
+		},
+		"include-path":["./"]
+	    }
+	},
+	{
+	    "type": "package",
+	    "package": {
+		"name": "sebastianbergmann/dbunit",
+		"version": "dev-master",
+		"source": {
+		    "url": "https://github.com/sebastianbergmann/dbunit.git",
+		    "type": "git",
+		    "reference": "master"
+		},
+		"include-path":["./"]
+	    }
+	}
+    ]
 }
 
