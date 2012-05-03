@@ -12,6 +12,12 @@
     "bin":["phpunit"],
     "require": {
         "php":">=5.2.7",
-        "sebastianbergmann/php-file-iterator": "1.3.0"
+        "sebastianbergmann/php-file-iterator": "1.3.0",
+        "sebastianbergmann/php-code-coverage": "1.1.0",
+	"sebastianbergmann/php-token-stream": "1.1.3",
+	"sebastianbergmann/php-text-template": "1.1.1",
+	"sebastianbergmann/php-timer": "1.0.1",
+	"sebastianbergmann/phpunit-mock-objects": "1.1.0",
+	"sebastianbergmann/dbunit": "1.1.2"
     }
 }
