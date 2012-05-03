@@ -10,7 +10,8 @@
     ],
     "include-path":["./"],
     "require": {
-        "php":">=5.2.7"
+        "php":">=5.2.7",
+        "sebastianbergmann/php-file-iterator": "1.3.0"
     }
 }
 
